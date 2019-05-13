@@ -1,0 +1,243 @@
+.titulo-item {
+    margin-top: 70px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding-top: 20px;
+    height: 4rem;
+    background: #fff;
+    color: #306BA2;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.banner {
+    padding-top: 30px;
+    min-height: 150px;
+    color: #333;
+    background-color: #fff;
+}
+
+.banner-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner-img {
+    max-height: 80px;
+}
+
+@media (max-width: 890px) {
+    /* Bump up size of carousel content */
+    .banner-img {
+        height: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Bump up size of carousel content */
+    .banner {
+        position: relative;
+    }
+    .banner-img {
+        position: absolute;
+        height: 40px;
+        right: 20px;
+    }
+    #inf {
+        bottom: 5px;
+    }
+}
+
+@media (max-width: 460px) {
+    /* Bump up size of carousel content */
+    .banner-img {
+        height: 0px;
+    }
+}
+
+.div-title {
+    color: #306ba2;
+    background-color: #eee;
+}
+
+footer {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    overflow: hidden;
+    background-color: #306ba2;
+    color: #fff;
+}
+
+footer a {
+    color: #ccc;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color: #306ba2;
+    transition: 1s;
+}
+
+.sub-navbar {
+    height: 30px;
+    background-color: #3E4551;
+}
+
+.sub-navbar .nav-link {
+    color: #fff;
+}
+
+
+/* fim navbar */
+
+
+/* Carousel base class */
+
+.carousel h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+    height: 350px;
+    background-color: #777;
+    overflow: hidden;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 350px;
+}
+
+@media (min-width: 20em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+}
+
+
+.card-title {
+    font-size: 18px;
+}
+
+.slider-botao{
+    position: absolute;
+    bottom: -80px;
+}
+/*Fim do Básico - Inicio do Corpo*/
+
+
+/* -------------- Proposta ----------------- */
+
+.prop-navbar {
+    background-color: #222;
+}
+
+@media (max-width: 500px) {
+    .prop-navbar li {
+        display: inline-block;
+    }
+}
+
+.prop-navbar li:hover {
+    background-color: #888;
+}
+
+.prop-navbar a {
+    color: #eee;
+}
+
+.title-accordion {
+    background-color: #306ba2;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    padding: 0.75rem;
+}
+
+#prop-comissao {
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+
+#prop-objetivo{
+    background-color:#eee;
+}
+
+#prop-linhas {
+    background-color: #bbcde5;
+    text-align: justify;
+}
+
+#prop-disciplinas {
+    background-color: #F0F6F7;
+    text-align: justify;
+}
+
+
+/* ------------------- Plano de Sustentação ------------------*/
+
+.thead-style{
+    background-color: #306ba2;
+    color: #fff;
+}
+
+#plano-texto {
+    color: #fff;
+    background-color: #5882FA;
+    margin-bottom: 0px;
+}
+
+.plano-seta {
+    width: 30px;
+}
+
+.thead-inverse th{
+    background-color: #777;
+}
+
+#plano-anexos {
+    background-color: #eee;
+}
+
+
+/* Bloco de Informação */
+
+.info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.publ-author {
+    font-size: 13px;
+    color: #979797;
+}
